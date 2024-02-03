@@ -1,9 +1,9 @@
-import { AppBar } from "@mui/material";
+import { CustomAppBar } from './components/CustomAppBar'
 
 export default function Home() {
-  return (
-    <>
-      <AppBar>Hello from material</AppBar>
-    </>
-  );
+	return (
+		<>
+			<CustomAppBar />
+		</>
+	)
 }
