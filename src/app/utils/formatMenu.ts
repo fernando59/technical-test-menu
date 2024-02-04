@@ -3,6 +3,7 @@ import { MenuData, MenuDataFormat } from '../models/Menu'
 type MenuMap = {
 	[key: string]: MenuDataFormat
 }
+
 export const formatMenu = (items: MenuData[]) => {
 	let menu: MenuDataFormat[] = []
 	let menuMap: MenuMap = {}

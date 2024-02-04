@@ -1,4 +1,4 @@
-import { CustomAppBar } from './components/CustomAppBar'
+import { CustomAppBar } from './components/CustomAppBar/CustomAppBar'
 
 export default function Home() {
 	return (
