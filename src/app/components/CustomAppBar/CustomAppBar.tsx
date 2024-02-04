@@ -48,7 +48,6 @@ export const CustomAppBar = () => {
 						size="large"
 						edge="start"
 						color="inherit"
-						aria-label="menu"
 						onClick={e => handleMenu(e, 'first')}
 						sx={StyledIcon}
 					>
@@ -58,7 +57,6 @@ export const CustomAppBar = () => {
 						size="large"
 						edge="start"
 						color="default"
-						aria-label="menu"
 						onClick={e => handleMenu(e, 'second')}
 						sx={StyledIcon}
 					>
