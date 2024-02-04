@@ -29,7 +29,6 @@ interface Props {
 		| (() => PopoverVirtualElement)
 		| null
 	handleClose: () => void
-	// eslint-disable-next-line no-unused-vars
 	handleClickItem?: (item: MenuDataFormat) => void
 	boxStyles?: SxProps<Theme>
 }

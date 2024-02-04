@@ -12,8 +12,8 @@
 	},
 	"rules": {
 		"react/jsx-uses-react": "error",
-		"react/jsx-uses-vars": "error",
 		"react-hooks/rules-of-hooks": "error",
+		"no-unused-vars": "off",
 		"react-hooks/exhaustive-deps": "warn"
 	},
 	"plugins": ["react", "react-hooks"]
